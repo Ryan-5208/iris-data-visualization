@@ -6,13 +6,13 @@ This project explores whether petal measurements help distinguish **three iris f
 
 ### Before
 
-![Before: all petal measurements are shown with the same symbol](figures/before.png)
+![Before: all petal measurements are shown with the same symbol](before.png)
 
 The initial scatterplot correctly shows petal length and petal width, but treats all flowers identically. It makes it difficult to determine which flower belongs to which species.
 
 ### After
 
-![After: petal measurements are grouped by species using color and marker shape](figures/after.png)
+![After: petal measurements are grouped by species using color and marker shape](after.png)
 
 The improved figure:
 
@@ -25,15 +25,15 @@ The improved figure:
 
 ### Combined comparison for course submission
 
-![Before-and-after comparison](figures/before_after_comparison.png)
+![Before-and-after comparison](before_after_comparison.png)
 
 ## Files
 
 - `data/iris_fisher.csv` — 150 rows of flower measurements and species labels.
 - `src/visualize_iris.py` — reproducible Python code that generates the three images.
-- `figures/before.png` — simple initial figure.
-- `figures/after.png` — improved figure.
-- `figures/before_after_comparison.png` — both figures in one image, suitable for uploading to a course assignment.
+- `before.png` — simple initial figure.
+- `after.png` — improved figure.
+- `before_after_comparison.png` — both figures in one image, suitable for uploading to a course assignment.
 - `requirements.txt` — Python package requirements.
 
 ## How to reproduce
